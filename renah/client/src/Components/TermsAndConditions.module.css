@@ -1,0 +1,31 @@
+/* body {
+    font-family: sans-serif;
+    padding: 5%;
+} */
+.outerWrapper {
+    padding-top: 13vh;
+}
+.wrapper {
+    
+    width: 80%;
+    margin: auto;
+}
+.mainHeading {
+    
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 0.06px;
+    color: #5E5E5EF9;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Candara;
+    font-weight: 800;
+    text-align: center;
+}
+.subHeading {
+    letter-spacing: 0.06px;
+    color: #5E5E5EF9;
+    /* text-transform: uppercase; */
+    font-size: 30px;
+    font-family: Candara;
+}

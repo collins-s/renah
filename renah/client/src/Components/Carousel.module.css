@@ -1,0 +1,29 @@
+
+
+.img1, .img2, .img3 {
+    padding-top: 70px;
+    height: 100vh;
+    
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.img1 {
+    background: url("./images/intro1.png");
+}
+.img2 {
+    background: url("./images/intro2.png");
+}
+.img3 {
+    background: url("./images/intro3.png");
+}
+.img1 div, .img2 div, .img3 div {
+    width: 45%;
+    text-align: center;
+    margin-top: 25vh;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: #e01d1d57;
+    padding: 20px 5px;
+}

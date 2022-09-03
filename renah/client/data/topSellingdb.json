@@ -1,0 +1,235 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "productImg": "https://i.ibb.co/vPxtCnJ/img1.jpg",
+        "productName": "Black Joggers",
+        "productPrice": 4500,
+        "rating": 5,
+        "sellerName": "Sanni Collins",
+        "profileImg": "https://imgur.com/PTgQlim.png",
+        "category": "Joggers",
+        "Overview": "",
+        "Description": "",
+        "Policy": "",
+        "Feedback": "",
+        "discount": 40,
+
+        "otherImgs": [
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/iOeUBV7.png"
+            },
+            {
+                "img": "https://imgur.com/Mplj1YR.png"
+            },
+            {
+                "img": "https://imgur.com/xSIK4M8.png"
+            }
+        ]
+      },
+      {
+        "id": 2,
+        "productImg": "https://i.ibb.co/ZzThSL1/img2.jpg",
+        "productName": "White Shirts",
+        "productPrice": 2500,
+        "rating": 5,
+        "sellerName": "Sanni Collins",
+        "profileImg": "https://imgur.com/PTgQlim.png",
+        "category": "Shirts",
+        "Overview": "",
+        "Description": "",
+        "Policy": "",
+        "Feedback": "",
+        "discount": 20,
+
+        "otherImgs": [
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/iOeUBV7.png"
+            },
+            {
+                "img": "https://imgur.com/Mplj1YR.png"
+            },
+            {
+                "img": "https://imgur.com/xSIK4M8.png"
+            }
+        ]
+      },
+      {
+        "id": 3,
+        "productImg": "https://i.ibb.co/jRG2yHW/img3.jpg",
+        "productName": "Cream Cargo Pants",
+        "productPrice": 4500,
+        "rating": 5,
+        "sellerName": "Sanni Collins",
+        "profileImg": "https://imgur.com/PTgQlim.png",
+        "category": "Cargo Pants",
+        "Overview": "",
+        "Description": "",
+        "Policy": "",
+        "Feedback": "",
+        "discount": 10,
+
+        "otherImgs": [
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/iOeUBV7.png"
+            },
+            {
+                "img": "https://imgur.com/Mplj1YR.png"
+            },
+            {
+                "img": "https://imgur.com/xSIK4M8.png"
+            }
+        ]
+      },
+      {
+        "id": 4,
+        "productImg": "https://i.ibb.co/DWmFKtW/img4.jpg",
+        "productName": "Red Hoodies",
+        "productPrice": 4500,
+        "rating": 5,
+        "sellerName": "Sanni Collins",
+        "profileImg": "https://imgur.com/PTgQlim.png",
+        "category": "Hoodies",
+        "Overview": "",
+        "Description": "",
+        "Policy": "",
+        "Feedback": "",
+        "discount": 10,
+
+        "otherImgs": [
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/iOeUBV7.png"
+            },
+            {
+                "img": "https://imgur.com/Mplj1YR.png"
+            },
+            {
+                "img": "https://imgur.com/xSIK4M8.png"
+            }
+        ]
+      },
+      {
+        "id": 5,
+        "productImg": "https://i.ibb.co/wL9MnKH/img5.jpg",
+        "productName": "White Shirts",
+        "productPrice": 2500,
+        "rating": 5,
+        "sellerName": "Sanni Collins",
+        "profileImg": "https://imgur.com/PTgQlim.png",
+        "category": "Shirts",
+        "Overview": "",
+        "Description": "",
+        "Policy": "",
+        "Feedback": "",
+        "discount": 30,
+
+        "otherImgs": [
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/iOeUBV7.png"
+            },
+            {
+                "img": "https://imgur.com/Mplj1YR.png"
+            },
+            {
+                "img": "https://imgur.com/xSIK4M8.png"
+            }
+        ]
+      },
+      {
+        "id": 6,
+        "productImg": "https://i.ibb.co/TmnYj1J/img6.jpg",
+        "productName": "Cream Cargo Pants",
+        "productPrice": 4500,
+        "rating": 5,
+        "sellerName": "Sanni Collins",
+        "profileImg": "https://imgur.com/PTgQlim.png",
+        "category": "Cargo Pants",
+        "Overview": "",
+        "Description": "",
+        "Policy": "",
+        "Feedback": "wowwwwwwwwwwwwwwwwwwwwwwww",
+        "discount": 50,
+
+        "otherImgs": [
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/iOeUBV7.png"
+            },
+            {
+                "img": "https://imgur.com/Mplj1YR.png"
+            },
+            {
+                "img": "https://imgur.com/xSIK4M8.png"
+            }
+        ]
+      },
+      {
+        "id": 7,
+        "productImg": "https://i.ibb.co/V9dw306/img7.jpg",
+        "productName": "Red Hoodies",
+        "productPrice": 4500,
+        "rating": 5,
+        "sellerName": "Sanni Collins",
+        "profileImg": "https://imgur.com/PTgQlim.png",
+        "category": "Hoodies",
+        "Overview": "",
+        "Description": "",
+        "Policy": "",
+        "Feedback": "",
+        "discount": 20,
+
+        "otherImgs": [
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/PTgQlim.png"
+            },
+            {
+                "img": "https://imgur.com/iOeUBV7.png"
+            },
+            {
+                "img": "https://imgur.com/Mplj1YR.png"
+            },
+            {
+                "img": "https://imgur.com/xSIK4M8.png"
+            }
+        ]
+      }
+    ]
+  }

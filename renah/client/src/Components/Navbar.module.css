@@ -1,0 +1,220 @@
+
+.navbarWrapper00  {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.navbarWrapper {
+    background-color: #E01D1D;
+    height: 9vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.brandName {
+    font: var(--unnamed-font-style-normal) normal bold 35px/43px Magneto;
+    text-align: left;
+    font: normal normal bold 35px/43px Magneto;
+    letter-spacing: 0px;
+    color: #FFFFFFFA;
+    opacity: 1;
+    display: inline-block;
+    text-decoration: none;
+}
+.searchBar1 {
+    width: 45%;
+    position: relative;
+    display: inline-block;
+} 
+.searchBar1 input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    /* border-radius: 26px; */
+    opacity: 1;
+    height: 35px;
+    padding: 9px 9px 9px 36px;
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+}
+.searchBar1 input:focus {
+    border-radius: 0;
+    outline: none;
+    /* box-shadow: 0 3px 10px 1px black; */
+}
+.searchedBox {
+    background-color: white;
+}
+.searchItems {
+    position: absolute;
+    top: 100%;
+    border: 0;
+    width: 100%;
+    padding-left: 18px;
+    /* padding-top: 5px; */
+    background-color: white;
+    /* box-shadow: 0 3px 10px 1px black; */
+}
+.itemLink {
+    text-decoration: none;
+    color: black;
+    padding: 10px 0;
+    display: block;
+}
+.icon2 {
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    /* font-size: 20px; */
+}
+.icon2:hover {
+    cursor: pointer;
+}
+.icon1:hover {
+    cursor: pointer;
+}
+.icon1 {
+    position: absolute;
+    left: 12px;
+    top: 9px;
+}
+.links {
+    display: flex;
+    align-items: center;
+}
+.linkItem {
+    text-decoration: none;
+    color: #FFFFFFFA;
+    margin-left: 20px;
+    position: relative;
+    padding-left: 12px;
+}
+.iconLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.iconCart {
+    position: relative;
+}
+.cartAmt {
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 9px;
+    right: 0;
+    bottom: 0;
+    /* height: 15px;
+    width: 15px; */
+    padding: 1px 5px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+.iconItem {
+    display: inline-block;
+    /* font-size: 35px; */
+    text-decoration: none;
+    color: #FFFFFFFA;
+    margin-left: 20px;
+    /* position: relative; */
+    /* padding-left: 6px; */
+}
+.iconItem:nth-of-type(2) {
+    /* font-size: 35px; */
+    position: relative;
+}
+.cartIcon {
+    font-size: 20px;
+    position: absolute;
+    left: -8px;
+    top: -2px;
+}
+.searchBar2 {
+    position: fixed;
+    top: 9vh;
+    /* margin-top: 9vh; */
+    z-index: 998;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+} 
+.searchBar2 input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    /* border-radius: 26px; */
+    opacity: 1;
+    height: 35px;
+    padding: 9px 9px 9px 36px;
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+}
+.searchBar2 input:focus {
+    border-radius: 0;
+    outline: none;
+    /* box-shadow: 0 3px 10px 1px black; */
+}
+
+
+/* Tablet Mode */
+@media screen and (max-width: 769px) {
+    .navbarWrapper {
+        display: grid;
+        padding: 0 30px;
+        grid-template-columns: auto auto auto;
+    }
+    .cartAmt {
+        font-size: 7px;
+        padding: 1px 3px;
+    }
+    .brandName {
+        width: fit-content;
+    }
+    .brandName {
+        font: normal normal bold 30px/30px Magneto;
+    }
+    .searchBar1 {
+        visibility: hidden;
+    }
+}
+
+
+/* Mobile Mode */
+@media screen and (max-width: 480px) {
+    .navbarWrapper {
+        padding: 0 2%;
+        grid-template-columns: auto 1px auto;
+    }
+    .brandName {
+        font: normal normal bold 20px/20px Magneto;
+    }
+    .iconItem {
+        margin-left: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+/* Tablet Mode */
+@media screen and (max-width: 769px) {
+            
+}
+
+
+/* Mobile Mode */
+@media screen and (max-width: 480px) {
+
+}

@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "img": "image.png",
+      "productName": "Black Joggers",
+      "productPrice": "N4,500",
+      "id": 1
+    },
+    {
+      "img": "image.png",
+      "productName": "White Shirts",
+      "productPrice": "N2,500",
+      "id": 2
+    },
+    {
+      "img": "image.png",
+      "productName": "Cream Cargo Pants",
+      "productPrice": "N4,500",
+      "id": 3
+    },
+    {
+      "img": "image.png",
+      "productName": "Red Hoodies",
+      "productPrice": "N4,500",
+      "id": 4
+    }
+  ]
+}

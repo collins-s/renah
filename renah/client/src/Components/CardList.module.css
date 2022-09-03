@@ -1,0 +1,128 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.cards {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    /* width: 100%; */
+    margin-bottom: 10px;
+    position: relative;
+    box-shadow: 2px 1px 6px 2px rgba(32, 33, 36, 0.28);
+    justify-content: space-between;
+}
+
+
+.cards::-webkit-scrollbar {
+    height: 15px;
+}
+.cards::-webkit-scrollbar-track {
+    background-color: #E2C0C0;
+    /* box-shadow: 2px 1px 6px 2px rgba(32, 33, 36, 0.28); */
+    border-radius: 10px;
+}
+.cards::-webkit-scrollbar-thumb {
+    background-color: #E01D1D;
+    border-radius: 10px;
+    border: 3px solid #E2C0C0;
+}
+.card {
+    min-width: 25%;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    /* border: 1px solid black; */
+}
+.card > p {
+    margin-bottom: 5px;
+    letter-spacing: 0.06px;
+    color: #5E5E5EF9;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Candara;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+.pName {
+    height: 50px;
+}
+.card > p:nth-child(3) {
+    color: #E01D1D;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Candara;
+    /* margin-bottom: 30px; */
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.cartBtn {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    border-radius: 10px;
+    border: 0;
+    font-family: Candara;
+    font-size: 20px;
+    font-weight: 900;
+    display: inline-block;
+}
+.deleter {
+    position: absolute;
+    right: 10%;
+    top: 0;
+    display: inline-block;
+}
+.deleter:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Tablet Mode */
+@media screen and (max-width: 769px) {
+    .cards {
+        overflow-x: auto;
+    }
+    .card {
+        min-width: 35%;
+        padding: 20px;
+    }
+    .card > p {
+        font-size: 20px;
+        display: flex;
+        justify-content: start;
+    }
+}
+
+
+/* Mobile Mode */
+@media screen and (max-width: 480px) {
+    .cards {
+        box-shadow: none;
+    }
+    .card {
+        min-width: 50%;
+        padding: 10px;
+    }
+    .card > p {
+        text-align: left;
+        font-size: 13px;
+        display: flex;
+        justify-content: start;
+    }
+}

@@ -1,0 +1,225 @@
+
+
+.outerWrapper {
+    padding: 0 10%;
+    padding-top: 9vh;
+    margin: auto;
+    background-color: #E2C0C0;
+    display: flex;
+    padding-bottom: 50px;
+}
+.sideBar {
+    margin-top: 20px;
+    display: inline-block;
+    width: 25%;    
+    padding: 10px 15px;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    height: fit-content;
+}
+.subHeading {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.subBody {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.categoryOpt {
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    box-shadow: 0 0 1px ;
+    width: 100%;
+    padding: 2px;
+}
+.radWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.radWrapper:hover {
+    cursor: pointer;
+}
+.radBtnRating {
+    /* background-color: grey; */
+    width: 7px;
+    border-radius: 50%;
+    height: 7px;
+}
+.radBtnWrapper {
+    padding: 3px;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+.selectedOpt2 {
+    background-color: #E01D1D;
+}
+.selectedOpt1 {
+    border: 2px solid #E01D1D;
+}
+
+.filledStar {
+    color: gold;
+}
+.unfilledStar {
+    color: gray;
+}
+.priceInput {
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    box-shadow: 0 0 1px ;
+    max-width: 38%;
+    padding: 2px;
+    font-size: 12px;
+    padding: 3px;
+}
+.dash{
+    margin: auto 10%;
+}
+.wrapper {
+    display: inline-block;
+    padding-bottom: 30px;
+    width: 75%;
+}
+.txtPart {
+    width: 80%;
+    margin: auto;
+    padding: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.header {
+    display: inline-block;
+    text-align: left;
+    font: normal normal normal 42px Segoe UI;
+    letter-spacing: 0.08px;
+    color: #000000F9;
+    opacity: 1;
+    margin-top: 30px;
+
+}
+.cards {
+    
+    width: 95%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    position: relative;
+    /* box-shadow: 2px 1px 6px 2px rgba(32, 33, 36, 0.28); */
+    border-color: rgba(223, 225, 229, 0);
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 25%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+.card:hover {
+    box-shadow: 0 0 5px;
+}
+.card > p {
+    margin-bottom: 5px;
+    letter-spacing: 0.06px;
+    color: #5E5E5EF9;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Candara;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+.card > p:nth-child(3) {
+    color: #E01D1D;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Candara;
+    /* margin-bottom: 30px; */
+}
+.proImg {
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+}
+.cartBtn {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    border-radius: 10px;
+    border: 0;
+    font-family: Candara;
+    font-size: 20px;
+    font-weight: 900;
+    display: inline-block;
+}
+
+
+
+
+/* Tablet Mode */
+@media screen and (max-width: 769px) {
+    .outerWrapper {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .sideBar {
+        width: 35%;
+    }
+    .wrapper {
+        width: 65%;
+    }
+    .cartBtn {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+
+/* Mobile Mode */
+@media screen and (max-width: 480px) {
+    
+    .cards {
+        margin: 0;
+
+    }
+    .outerWrapper {
+        flex-wrap: wrap;
+    }
+    .sideBar {
+        width: 100%;
+        box-shadow: none;
+        padding: 0;
+    }
+    .sideBarBtn {
+        width: 50%;
+        background-color: #E01D1D;
+        color: white;
+        outline: none;
+        border: 0;
+        box-shadow: 0 3px 5px 2px gray;
+        padding: 6px;
+        border-radius: 20px;
+
+    }
+    .card {
+        max-width: 50%;
+        min-width: 50%;
+    }
+    .wrapper {
+        width: 100%;
+    }
+}

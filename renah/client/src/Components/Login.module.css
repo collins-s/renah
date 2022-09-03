@@ -1,0 +1,154 @@
+body {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+.wrapper {
+    padding-top: 15vh;
+    background-color: #D3D3D3F9;
+    padding-bottom: 50px;
+}
+.loginWrapper {
+    margin-top: 100px;
+    margin: auto;
+    width: 60%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px #E01D1D99;
+}
+.carousel {
+    background: url("https://i.ibb.co/5cp66td/img33.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 0 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.loginForm {
+    text-align: center;
+    padding: 30px 0 50px;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    width: 80%;
+    padding: 6px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.logo {
+    font-size: 20px;
+    margin-right: 5px;
+}
+.signinOptsBtnGoogle:hover {
+    border-color: red;
+}
+.googleImg {
+    width: 24px;
+}
+.fb {
+    color: blue;
+}
+.signinOptsBtnFacebook:hover {
+    border-color: blue;
+}
+.text {
+    font-size: 12px;
+}
+.errMsg {
+    color: red;
+    font-size: 12px;
+    height: 12px;
+}
+.inputBox {
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 0 solid;
+    border-bottom-width: 1px;
+}
+.inputBox:last-of-type {
+    margin-bottom: 10px;
+}
+.inputBox:focus {
+    border-color: #E01D1D;
+}
+.passReset {
+    color: grey;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 10%;
+}
+.passReset:hover {
+    color: red;
+    cursor: pointer;
+}
+.loginBtn {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 12px;
+    border: 0 solid;
+    border-radius: 10px;
+    background-color: #E01D1D;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: honeydew;
+    margin-bottom: 20px;
+
+}
+.loginBtn:hover {
+    cursor: pointer;
+}
+.signupOpt {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10%;
+}
+.signupBtn {
+    text-decoration: underline;
+    color: #E01D1D;    
+}
+.signupBtn:hover {
+    cursor: pointer;
+}
+
+
+
+
+/* Tablet Mode */
+@media screen and (max-width: 769px) {
+    .wrapper {
+        background: url("https://i.ibb.co/5cp66td/img33.jpg");
+    }
+    .loginWrapper {
+        grid-template-columns: auto;
+        opacity: 0.8;
+    }
+    .carousel {
+        padding: 0;
+    }
+    .loginBtn {
+        margin: 0;
+    }
+
+}
+
+
+/* Mobile Mode */
+@media screen and (max-width: 480px) {
+    .loginWrapper {
+        width: 90%;
+    }
+}

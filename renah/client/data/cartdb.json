@@ -1,0 +1,13 @@
+{
+  "products": [
+    {
+      "productImg": "https://i.ibb.co/jRG2yHW/img3.jpg",
+      "productName": "Cream Cargo Pants",
+      "productPrice": 4500,
+      "quantity": 2,
+      "size": "L",
+      "parentId": 3,
+      "id": 1
+    }
+  ]
+}
